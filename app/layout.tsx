@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: { default: `${TAGLINE} – ${SITE_NAME}`, template: `%s – ${SITE_NAME}` },
   description: SUPPORT,
   applicationName: SITE_NAME,
-  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION } : undefined,
+  verification: { google: "xHfzPLmgwzBIn7DokjD8D8CkEsYbuH02PDzgr-zlb9M" },
   robots: { index: true, follow: true },
 };
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: [{ media: "(prefers-color-scheme: light)", color: "#ffffff" }, { media: "(prefers-color-scheme: dark)", color: "#17212d" }] };
